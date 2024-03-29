@@ -13,7 +13,7 @@ public class Login extends JFrame implements ActionListener {
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/login.png"));
         Image i = i1.getImage().getScaledInstance(550,500,Image.SCALE_DEFAULT);
         ImageIcon i2 = new ImageIcon(i);
-        JLabel image = new JLabel(i2);
+        JLabel image = new JLabel(i2); // image label
         image.setBounds(450,0,550,500);
         add(image);
         JLabel heading = new JLabel("QUIZ TEST");
